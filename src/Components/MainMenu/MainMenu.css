@@ -1,0 +1,33 @@
+.Main {
+    width: 100vw;
+    height: 100vh;
+    max-width: 60rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.Main p {
+    padding: 1.5rem 0;
+}
+
+.Main button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #045fd0;
+    box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.2);
+    border-radius: 0.5rem;
+    border: none;
+}
+
+.Main button:hover {
+    cursor: pointer;
+}
+
+.Main button:active {
+    box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
